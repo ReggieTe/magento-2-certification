@@ -1,0 +1,26 @@
+{
+    "name": "certification/core",
+    "description": "Magento 2 certification questions",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Regis Tembachako",
+            "email": "tembachakoregis@gmail.com"
+        }
+    ],    
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0"
+    },    
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Certification\\Core\\": ""
+        }
+    }
+}

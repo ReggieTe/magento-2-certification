@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>        
+        <add 
+        id="Certification_Associate::associate" 
+        title="Associate Developer" 
+        module="Certification_Associate"
+        sortOrder="10" 
+        action="associate/questions/index"
+        resource="Certification_Associate::associate"
+        parent="Certification_Core::core"/>
+    </menu>
+</config>
